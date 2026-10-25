@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " S ",
+        "SES",
+        " S "
+    ],
+    "key": {
+        "S": { "item": "chrowd:raw_shard" },
+        "E": { "item": "minecraft:ender_pearl" }
+    },
+    "result": {
+        "item": "chrowd:chrowd"
+    }
+}

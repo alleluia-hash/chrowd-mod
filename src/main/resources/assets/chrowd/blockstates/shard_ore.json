@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "chrowd:block/shard_ore"
+        }
+    }
+}

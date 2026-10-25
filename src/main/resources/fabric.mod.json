@@ -1,0 +1,24 @@
+{
+    "schemaVersion": 1,
+    "id": "chrowd",
+    "version": "${version}",
+    "name": "Chrowd",
+    "description": "Adds Shard Ore, Raw Shards, and the Chrowd: double jump, a 15 second levitation slap, and a 1 minute cooldown.",
+    "authors": [],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.example.chrowd.ChrowdMod"
+        ],
+        "client": [
+            "com.example.chrowd.ChrowdClient"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.14.21",
+        "minecraft": "~1.20.1",
+        "java": ">=17",
+        "fabric-api": "*"
+    }
+}
