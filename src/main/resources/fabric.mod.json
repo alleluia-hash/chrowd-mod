@@ -4,15 +4,15 @@
     "version": "${version}",
     "name": "Chrowd",
     "description": "Adds Shard Ore, Raw Shards, and the Chrowd: double jump, a 15 second levitation slap, and a 1 minute cooldown.",
-    "authors": [],
+    "authors": ["alleluia-hash"],
     "license": "MIT",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.chrowd.ChrowdMod"
+            "com.alleluia.chrowd.ChrowdMod"
         ],
         "client": [
-            "com.example.chrowd.ChrowdClient"
+            "com.alleluia.chrowd.ChrowdClient"
         ]
     },
     "depends": {
