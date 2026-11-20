@@ -21,10 +21,6 @@ public final class ModItems {
     }
 
     public static void init() {
-        ItemGroupEntries();
-    }
-
-    private static void ItemGroupEntries() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(RAW_SHARD));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> entries.add(CHROWD));
     }
